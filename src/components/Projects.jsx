@@ -5,7 +5,7 @@ const Projects = () => {
       title: 'Personal Website',
       description: 'Create an unique personal portfolio or a blog site with modern design and intuitive navigation. Showcase your work, skills, and experiences while keeping it professional and easy to navigate.',
       buttonText: 'Live Demo',
-      link: '#'
+      link: '#https://tonypradipta-portofolio.vercel.app/'
     },
     {
       image: '/project2.png',

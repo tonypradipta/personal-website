@@ -818,7 +818,19 @@ section{
 
 .project-card p{
     font-size: 1.6rem;
+    text-align: center;
 }
+
+.project-card .btn {
+        padding: 1rem 2.5rem;
+        font-size: 1.5rem;
+        margin-top: 1rem;
+        width: auto;
+        min-width: 150px;
+        max-width: 200px;
+        text-align: center;
+        align-self: center;
+    }
 
 .contact{
     background-color: var(--bg-color);
@@ -994,6 +1006,53 @@ section{
     .certified-container {
         grid-template-columns: repeat(2, 1fr);
     }
+    .projects {
+        padding: 6rem 5%;
+    }
+
+    .projects h2 {
+        font-size: 4.5rem;
+        margin-bottom: 3rem;
+    }
+
+    .projects-box {
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
+        row-gap: 3rem;
+    }
+
+    .project-card {
+        padding: 2.5rem 2rem;
+        border-radius: 2rem;
+        gap: 1.5rem;
+        max-width: 100%;
+    }
+
+    .project-card img {
+        max-width: 100%;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 1.5rem;
+    }
+
+    .project-card h3 {
+        font-size: 2.2rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .project-card p {
+        font-size: 1.4rem;
+        line-height: 1.6;
+        text-align: justify;
+    }
+
+    .project-card .btn {
+        padding: 1rem 2.5rem;
+        font-size: 1.5rem;
+        margin-top: 1rem;
+        width: 100%;
+        text-align: center;
+    }
 
 }
 
@@ -1166,11 +1225,98 @@ section{
         text-align: center;
     }
 
+    .project-card img {
+        height: 150px;
+    }
+
+    .project-card {
+        padding: 2rem 1.5rem;
+    }
+
+    .project-card p {
+        font-size: 1.3rem;
+        line-height: 1.5;
+    }
+
     .contact h2 {
         font-size: 5rem;
         text-align: center;
     }
 }
 
+/* Extra small devices (phones, less than 480px) */
+@media(max-width: 480px) {
+
+  .home-content h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-top: 1.5rem;
+    line-height: 1;
+}
+
+  .home-content h3 {
+      margin: 1rem 0;
+      font-size: 2rem;
+      text-align: center;
+  }
+
+  .about h2 {
+        font-size: 4rem;
+        margin-bottom: 2.5rem;
+    }  
+  .certified h2 {
+        font-size: 4rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .services h2 {
+        font-size: 4rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .contact h2 {
+        font-size: 4rem;
+        margin-bottom: 2.5rem;
+    }
+
+    
+    .projects {
+        padding: 5rem 4%;
+    }
+
+    .projects h2 {
+        font-size: 4rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .projects-box {
+        gap: 2rem;
+    }
+
+    .project-card {
+        padding: 2rem 1.5rem;
+        border-radius: 1.5rem;
+        gap: 1.2rem;
+    }
+
+    .project-card img {
+        height: 180px;
+        border-radius: 1.2rem;
+    }
+
+    .project-card h3 {
+        font-size: 2rem;
+    }
+
+    .project-card p {
+        font-size: 1.3rem;
+        line-height: 1.5;
+        text-align: center;
+    }
+    .project-card .btn {
+        padding: 1rem 2rem;
+        font-size: 1.4rem;
+    }
+}
 
 
